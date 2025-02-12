@@ -94,3 +94,33 @@ footer {
     background: #979797;
     padding: 36px 0;
 }
+
+.card_main .container {
+    display: flex;
+    justify-content: space-between;
+}
+.card_main .card {
+    width: calc(33.33333% - 48px);
+    padding: 16px;
+    border: 1px solid #000;
+    /* box-shadow: 0 0 5px 5px rgba(0,0,0, .25); */
+}
+
+.article_img .container {
+    display: flex;
+}
+.article_img .img_content {
+    margin-right: 16px;
+}
+
+.article_img .txt_content {
+    display: flex;
+    flex-direction: column;
+}
+.article_img .txt_content h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.article_img .txt_content button {
+    margin-top: auto;
+}
